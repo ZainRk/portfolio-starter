@@ -1,0 +1,50 @@
+
+
+
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2rem;
+    top: 0;
+}
+.n-left{
+    flex:1;
+    display:flex;
+    gap: 2rem;
+   
+    align-items: center;
+}
+
+.n-name{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-weight: normal;
+    align-items: center;
+    font-weight: 400;
+}
+.n-list{
+    flex: 10;
+
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    
+}
+
+.n-button {
+    flex: 2;
+  }
+  
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color:var(--orange);
+}
