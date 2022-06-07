@@ -1,29 +1,80 @@
 import React from "react";
 import "./Services.css";
-import HeartEmoji from '../../img/heartemoji.png'
-import Glasses from '../../img/glasses.png'
-import Humble from '../../img/humble.png'
-
-
+import HeartEmoji from "../../img/heartemoji.png";
+import Glasses from "../../img/glasses.png";
+import Humble from "../../img/humble.png";
+import Card from "../card/Card";
+import { motion } from "framer-motion";
+import CV from './CV.pdf'
+ 
 const Services = () => {
+  // transition
+  const transition = {
+    duration: 1,
+    type: "spring",
+  };
+
   return (
     <div className="services">
-        {/** left side */}
+      {/** left side */}
       <div className="awesome">
-          <span>My Awesome</span>
-          <span>Services</span>
-          <span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni doloremque temporibus nam atque expedita numquam commodi accusantium, architecto itaque et exercitationem sequi nostrum corrupti blanditiis dicta reprehenderit, cupiditate explicabo ut?
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </span>
-
+        <span>My Awesome</span>
+        <span>Services</span>
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+          doloremque temporibus nam atque expedita
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </span>
+        <a href={CV} download>
           <button className="button s-button">Dowload CV</button>
-          <div className="blur s-blur1 s-blur-background1"></div>
+        </a>
+        <div className="blur s-blur1 s-blur-background1"></div>
       </div>
       {/** right side */}
       <div className="cards">
-          hello
+        <motion.div
+          initial={{ left: "30rem" }}
+          whileInView={{ left: "25rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={HeartEmoji}
+            heading={"Design"}
+            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+          />
+        </motion.div>
+        {/* second card */}
+        <motion.div
+          initial={{ left: "10rem", top: "12rem" }}
+          whileInView={{ left: "5rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Glasses}
+            heading={"Developer"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+          />
+        </motion.div>
+        {/* 3rd */}
+        <motion.div
+          initial={{ top: "19rem", left: "27rem" }}
+          whileInView={{ left: "30rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Humble}
+            heading={"UI/UX"}
+            detail={
+              "Lorem ispum dummy text are usually use in section where we need some random text"
+            }
+            color="rgba(252, 166, 31, 0.45)"
+          />
+        </motion.div>
+        <div
+          className="blur s-blur2"
+          style={{ background: "var(--purple)" }}
+        ></div>
       </div>
     </div>
   );
