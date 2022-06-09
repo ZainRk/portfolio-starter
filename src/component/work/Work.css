@@ -29,11 +29,7 @@
     font-size: 14px;
     margin-top: 1rem;
   }
-  .s-button {
-    width: 8rem;
-    height: 2rem;
-    margin-top: 4rem;
-  }
+  
   
   /* right side */
   .w-right {
@@ -75,7 +71,7 @@
     left: 6rem;
     top: 13rem;
   }
-  .w-secCircle {
+  .w-secCircle,.w-secCircle-FPT,.w-secCircle-Upwork {
     width: 6rem;
     height: 6rem;
     position: absolute;
@@ -90,7 +86,15 @@
   }
   
   .w-secCircle > img {
-    transform: scale(0.6);
+    transform: scale(0.5);
+  }
+
+  .w-secCircle-FPT img {
+    transform: scale(0.3);
+  }
+
+  .w-secCircle-Upwork img {
+    transform: scale(0.3);
   }
   
   .w-backCircle {

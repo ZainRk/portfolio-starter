@@ -126,3 +126,54 @@
     height: 11rem;
     left: -9rem;
 }
+
+@media screen and (max-width:768px) {
+    .intro {
+        display: block;
+        height: 100%;
+    }
+    .i-icon {
+        margin-top: 0;
+    }
+
+    .i-left {
+        gap:1rem;
+        margin-bottom: 4rem;
+    }
+    .i-right {
+        height: 30rem;
+    }
+
+    .i-FloatingDiv1 {
+        display: none;
+    }
+    
+    .i-FloatingDiv2 {
+        top:28rem;
+        left: 0;
+    }
+
+    .i-right>:nth-child(1) {
+        left: -14%;
+        top:0;
+    
+    }
+    .i-right>:nth-child(2) {
+        top: -18px;
+        left: -6rem;
+    }
+    
+    .i-right>:nth-child(3) {
+        left: 20%;
+        top:80px
+    }
+
+    .i-right>:nth-child(4) {
+        left: 25%;
+        top: -25%;
+       
+    }
+
+    
+    
+}

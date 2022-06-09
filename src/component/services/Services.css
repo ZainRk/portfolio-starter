@@ -7,6 +7,7 @@
   display: flex;
   height: 90vh;
   margin-bottom: 7rem;
+  margin-top: 4rem;
 }
 
 .awesome {
@@ -69,9 +70,9 @@
   left: -18rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .services {
-    margin-top: 0;
+    margin-top: 5rem;
     flex-direction: column;
     gap: 5rem;
     height: 66rem;
@@ -86,5 +87,9 @@
 
   .cards>* {
     position: static;
+  }
+
+  .s-button {
+    margin-top: 0;
   }
 }

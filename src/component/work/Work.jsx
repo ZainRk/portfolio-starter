@@ -23,16 +23,16 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Works for All these
           </span>
-          <span>Brands & Clients</span>
+          <span>Brands &#38; Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            {/* Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
             ispum is simpley dummy text of printingLorem ispum is simpley dummy
             text
             <br />
             y dummy text of printingLorem
             <br />
-            ispum is simpley dummy text of printing
+            ispum is simpley dummy text of printing */}
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -53,7 +53,7 @@ const Works = () => {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
-          <div className="w-secCircle">
+          <div className="w-secCircle-Upwork">
             <img src={Upwork} alt="" />
           </div>
           <div className="w-secCircle">
@@ -62,7 +62,7 @@ const Works = () => {
           <div className="w-secCircle">
             <img src={Amazon} alt="" />
           </div>{" "}
-          <div className="w-secCircle">
+          <div className="w-secCircle-FPT">
             <img src={Shopify} alt="" />
           </div>
           <div className="w-secCircle">

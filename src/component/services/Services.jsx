@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useContext} from "react";
 import "./Services.css";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
@@ -6,8 +6,13 @@ import Humble from "../../img/humble.png";
 import Card from "../card/Card";
 import { motion } from "framer-motion";
 import CV from './CV.pdf'
+import { themeContext } from "../../Context";
+
  
 const Services = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme?.state?.darkMode;
+
   // transition
   const transition = {
     duration: 1,
@@ -18,13 +23,13 @@ const Services = () => {
     <div className="services">
       {/** left side */}
       <div className="awesome">
-        <span>My Awesome</span>
+        <span style={{color:darkMode?"#fff":""}}>My Awesome</span>
         <span>Services</span>
-        <span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
-          doloremque temporibus nam atque expedita
+        <span style={{color:darkMode?"#fff":""}}>
+          {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+          doloremque temporibus nam atque expedita */}
           <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. */}
         </span>
         <a href={CV} download>
           <button className="button s-button">Dowload CV</button>
@@ -47,7 +52,7 @@ const Services = () => {
         {/* second card */}
         <motion.div
           initial={{ left: "10rem", top: "12rem" }}
-          whileInView={{ left: "5rem" }}
+          whileInView={{ left: "10rem" }}
           transition={transition}
         >
           <Card

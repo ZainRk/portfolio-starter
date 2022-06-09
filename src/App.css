@@ -1,3 +1,5 @@
+@import url(./assets/icon/style.css);
+
 :root {
   --yellow: #F5C32C;
   --orange: #FCA61F;
@@ -31,4 +33,12 @@
   cursor: pointer;
   color: var(--orange);
   border: 1px solid var(--orange);
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    max-width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  
 }
