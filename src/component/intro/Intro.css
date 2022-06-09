@@ -1,0 +1,179 @@
+.intro {
+    display: flex;
+    height: 60vh;
+    margin-top: 6rem;
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1) {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2) {
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.i-button {
+    width: 6rem;
+    height: 2rem;
+}
+
+.i-icon {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icon>* {
+    transform: scale(0.5);
+}
+
+.i-icon>*:hover {
+    cursor: pointer;
+}
+
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+.i-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1) {
+    transform: scale(0.69);
+    left: -20%;
+    top:-9%;
+
+}
+.i-right>:nth-child(2) {
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+
+.i-right>:nth-child(3) {
+    transform: scale(1.4);
+    left: 28%;
+}
+
+.i-right>:nth-child(4) {
+    transform: scale(0.6);
+    left: -24%;
+    top: -19%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.i-FloatingDiv1 {
+    top: -4%;
+    left: 68%;
+}
+
+.i-FloatingDiv2 {
+    top:18rem;
+    left: 0;
+}
+
+.i-blur {
+    background: rgb(238, 210, 255);
+}
+
+
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    border-radius: 50%;
+    height: 14rem;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+} 
+
+.i-blur-bottom {
+    background: #c1f5ff;
+    top: 17rem;
+    width: 21rem;
+    height: 11rem;
+    left: -9rem;
+}
+
+@media screen and (max-width:768px) {
+    .intro {
+        display: block;
+        height: 100%;
+    }
+    .i-icon {
+        margin-top: 0;
+    }
+
+    .i-left {
+        gap:1rem;
+        margin-bottom: 4rem;
+    }
+    .i-right {
+        height: 30rem;
+    }
+
+    .i-FloatingDiv1 {
+        display: none;
+    }
+    
+    .i-FloatingDiv2 {
+        top:28rem;
+        left: 0;
+    }
+
+    .i-right>:nth-child(1) {
+        left: -14%;
+        top:0;
+    
+    }
+    .i-right>:nth-child(2) {
+        top: -18px;
+        left: -6rem;
+    }
+    
+    .i-right>:nth-child(3) {
+        left: 20%;
+        top:80px
+    }
+
+    .i-right>:nth-child(4) {
+        left: 25%;
+        top: -25%;
+       
+    }
+
+    
+    
+}
