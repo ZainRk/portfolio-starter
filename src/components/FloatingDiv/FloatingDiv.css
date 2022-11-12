@@ -1,0 +1,16 @@
+.floating-div{
+  justify-content: space-around;
+  display: flex;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0px 28px 0px 0px;
+  height: 4.5rem;
+
+}
+
+.floating-div>span{
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 30px;
+}

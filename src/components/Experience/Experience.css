@@ -1,0 +1,6 @@
+.experiences{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
