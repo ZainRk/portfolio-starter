@@ -1,0 +1,29 @@
+.card {
+  width: 10rem;
+  height: 15rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-basis: content;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255,255,255,0.26);
+  border: 7px solid var(--orangeCard);
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+}
+.card span:nth-of-type(1){
+  color: var(--black);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card span:nth-of-type(2){
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.c-button{
+  background-color: aqua;
+}
