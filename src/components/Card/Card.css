@@ -1,0 +1,50 @@
+.card{
+    width: 12rem;
+    height: 14.4rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    background: white;
+    border-radius: 10px;
+}
+.card>span{
+    color: var(--black);
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+.card>span:nth-child(2){
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.card>span:nth-child(3){
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: gray;
+
+}
+.card>img{
+transform: scale(0.9);
+padding-top:20px ;
+padding-bottom: 20px;
+
+}
+.c-button{
+    font-size: 13px;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 80%;
+    height: 10%;
+    align-self: center;
+}
+.c-button:hover{
+    cursor: pointer;
+    box-shadow:0 0 3px rgb(120, 119, 119) ;
+    
+}
