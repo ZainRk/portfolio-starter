@@ -17,7 +17,7 @@ const Navbar  = () => {
                 </ul>
             </div>
             <button className="button">
-                Contact us
+                Contact
             </button>
         </div>
       </div>
