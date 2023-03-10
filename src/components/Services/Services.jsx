@@ -46,22 +46,23 @@ const Services = () => {
         <a href={FolaCV} download>
           <button className="button s-button">Download my CV</button>
         </a>
-
       </div>
       <div className="rightdiv">
-        <div style={{ left: "14rem" }}>
+        <div style={{ left: "18rem" }}>
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
             details={"Canva, Figma, sketch"}
           />
         </div>
-        <div style={{ left: "-7rem" }}>
-          <Card semoji={Glasses}
+        <div style={{ left: "4rem" }}>
+          <Card
+            emoji={Glasses}
             heading={"Frontend"}
-            details={"Html, CSS,Bootstrap, JavaScript, React, Redux"} />
-          </div>
-          <div style={{left:'-2rem'}} >
+            details={"Html, CSS,Bootstrap, JavaScript, React, Redux"}
+          />
+        </div>
+        <div style={{ top: "16rem", left: "4rem" }}>
           <Card
             emoji={Glasses}
             heading={"Backend"}
@@ -70,7 +71,6 @@ const Services = () => {
         </div>
       </div>
     </div>
-  
   );
 };
 

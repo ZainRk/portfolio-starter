@@ -1,7 +1,7 @@
 .services {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 50vh;
+  height: 70vh;
   margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
@@ -26,49 +26,56 @@
   color: var(--gray);
   font-size: 15px;
   font-weight: 100;
-  width: 28rem;
+  width: 30rem;
+  line-height: 1.2rem;
   padding-bottom: 10px;
 }
 .leftdiv > :nth-child(4) {
   color: var(--gray);
   font-size: 15px;
   font-weight: 100;
-  width: 28rem;
+  width: 30rem;
+  line-height: 1.2rem;
   padding-bottom: 10px;
 }
 .leftdiv > :nth-child(5) {
   color: var(--gray);
   font-size: 15px;
   font-weight: 100;
-  width: 28rem;
+  width: 30rem;
+  line-height: 1.2rem;
   padding-bottom: 10px;
 }
 .leftdiv > :nth-child(6) {
   color: var(--gray);
   font-size: 15px;
   font-weight: 100;
-  width: 28rem;
+   width: 30rem;
+  line-height: 1.2rem;
   padding-bottom: 10px;
 }
 .leftdiv > :nth-child(7) {
   color: var(--gray);
   font-size: 15px;
   font-weight: 100;
-  width: 28rem;
+  width: 30rem;
+  line-height: 1.2rem;
   padding-bottom: 10px;
 }
 .leftdiv > :nth-child(8) {
   color: var(--gray);
   font-size: 15px;
   font-weight: 100;
-  width: 28rem;
+  width: 30rem;
+  line-height: 1.2rem;
 }
 .s-button {
   width: 10rem;
   height: 2rem;
   margin-top: 1rem;
 }
-.rightdiv{
+.rightdiv {
+  margin-top: 1rem;
   position: relative;
 }
 .rightdiv > * {
