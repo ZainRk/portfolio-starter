@@ -1,0 +1,79 @@
+.t-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    border-radius: 17px;
+    height: 100vh;
+    gap: 2rem;
+    position: relative;
+    padding: 0 3rem 0 3rem;
+
+}
+
+.t-heading {
+    align-self: start;
+}
+
+
+.t-heading>* {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.t-heading span:nth-of-type(2) {
+    color: var(--orange);
+
+}
+
+.t-blur1 {
+    left: 38rem;
+    top: 16rem;
+}
+
+.t-blur2 {
+    left: 9rem;
+    top: 0;
+}
+
+.testimonial {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 12rem;
+    width: 30rem;
+    background: rgba(255, 255, 255, 0.26);
+    padding: 2rem;
+    border: 7px solid var(--boxShadow);
+    border-radius: 20px;
+}
+
+.testimonial>img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+
+}
+
+.testimonial>span {
+    color: var(--gray);
+}
+
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+
+}
+
+.t-wrapper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-wrapper .swiper-pagination-bullet-active {
+    background-color: var(--orange);
+}
