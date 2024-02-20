@@ -1,0 +1,139 @@
+.intro{
+  display: flex;
+  height: 77vh;
+  margin-top: 3rem;
+}
+
+.i-left{
+  margin-top: 29rem;
+  flex:1;
+  align-items: center;
+  margin-left: 10rem;
+  flex-direction: column;
+  
+}
+
+.i-background{
+  z-index: -1;
+  margin-top: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%) scale(2.8);
+}
+.body{
+  color:white;
+  font-size: 10px;
+  scale: 2  ;
+  margin-right: 20px;
+  margin-left: 50rem;
+  margin-bottom: 200px;
+  font-family: 'Kanit';
+}
+
+
+.body >:nth-child(1){
+  display:flex;
+  color:white;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Kanit';
+}
+.body >:nth-child(2){
+  margin-right: 150px;
+  display:flex;
+  color:white;
+  font-size: 20 px;
+  font-family: 'Lato';
+  stroke: black;
+  stroke-width: 50%
+  
+}
+
+.i-button{
+  margin-top: 40px;
+  padding: 20px 78px 20px 78px;
+  font-size: 20px;
+  color:white;
+  background-color: #FFBD00;
+  border-color: #CE9903;
+  margin-left: 32rem;
+  scale: 1.5;
+  font-family: 'Kanit';
+}
+
+.i-right{
+  align-items: center;
+  margin-top: 100px;
+}
+
+.BoxA{
+  margin-left: 38rem;
+}
+
+.BoxB{
+  margin-left: 38rem;
+}
+.BoxC{
+  margin-left: 38px;
+  display: flex;
+}
+
+.BoxD{
+  margin-left: 38px;
+  filter: drop-shadow(0 6mm 4mm rgb(145, 135, 148));
+  
+  
+}
+
+.i-hundred>:nth-child(1){
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  scale: 7;
+  margin-left: 50rem;
+  position: absolute;
+  margin-top: 150px;
+  font-family: 'Kanit';
+}
+
+.i-hundred>:nth-child(2){
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  scale: 2;
+  margin-left: 47rem;
+  position: absolute;
+  margin-top: 280px;
+  font-family: 'Kanit';
+}
+
+.i-nineteen>:nth-child(1){
+
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  scale: 7;
+  margin-left: 50rem;
+  position: absolute;
+  margin-top: 150px;
+  font-family: 'Kanit';
+  font-weight: bold;
+}
+
+.i-nineteen>:nth-child(2){
+
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  scale: 2;
+  margin-left: 47rem;
+  position: absolute;
+  margin-top: 270px;
+  font-family: 'Kanit';
+  font-weight: bold;
+}
+
+.longBox{
+  flex:1;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 11.5rem;
+  
+}

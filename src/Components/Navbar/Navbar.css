@@ -1,0 +1,68 @@
+.n-wrapper{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.n-left{
+  flex:1;
+  align-items: center;
+  display: flex;
+  gap:2rem;
+
+}
+.topline{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  position: relative;
+}
+
+.botline{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.n-logo{
+  scale: .8;
+  margin-left: 100px;
+}
+.n-right{
+  margin-left: 80rem; 
+  scale: 2;
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kanit';
+  font-weight: bold;
+}
+
+.n-list{
+  font-family: 'Kanit';
+  flex:1;
+  font-weight: bold;
+  
+  
+  
+}
+
+.n-list > ul{
+  font-weight: bold;
+  font-family: 'Kanit';
+  font-weight: 20px;
+  display: flex;
+  gap:2rem;
+  margin-right:  4rem;
+  color:#00215B
+  
+
+}
+
+.n-list>ul>li:hover{
+  cursor: pointer;
+  color: #D4D7DD;
+
+}
